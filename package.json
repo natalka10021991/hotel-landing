@@ -1,0 +1,20 @@
+{
+    "name": "hotel-landing",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/natalka10021991/hotel-landing.git",
+    "author": "Natalia Bystrova <n.a.bystrova@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack --watch",
+        "serv": "static build"
+    },
+    "devDependencies": {
+        "html-webpack-plugin": "^3.2.0",
+        "node-static": "^0.7.11",
+        "pug": "^2.0.4",
+        "pug-loader": "^2.4.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    }
+}
